@@ -10,7 +10,7 @@ function getFormvalue() {
       const lastName = form.lname.value.trim();
 
       // Concatenate with a space
-      const fullName = ${firstName} ${lastName}.trim();
+      const fullName = `${firstName} ${lastName}`.trim();
 
       // Handle empty input gracefully
       if (fullName === "") {
